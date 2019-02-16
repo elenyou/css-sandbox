@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS</title>
+
+  <link rel="stylesheet" href="style_dropdownmenu.css">
+  <link rel="stylesheet" href="style_buttons.css">
+  <link rel="stylesheet" href="style_typography.css">
+  <link rel="stylesheet" href="style_form.css">
+  <link rel="stylesheet" href="style_images.css">
+  <link rel="stylesheet" href="style_modal.css">
+  <link rel="stylesheet" href="style_tooltips.css">
+  <link rel="stylesheet" href="style_accordion.css">
+  <link rel="stylesheet" href="style_slidingpanels.css">
+  <link rel="stylesheet" href="3d_layereffect.css">
+  <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Nova+Mono|Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="final-result">
+        <div class="content">
+          <section>
+            <h1>Dropdown Menu</h1>
+            <div class="final__dropdown">
+              <button class="final__dropdown__hover">Dropdown</button>
+              <div class="final__dropdown__menu">
+                <a href="#">Dropdown 1</a>
+                <a href="#">Dropdown 2</a>
+                <a href="#">Dropdown 3</a>
+              </div>
+            </div>
+          </section>
+        </div>
+    </div>
+  <div class="sandbox">
+    <h1>Buttons</h1>
+    <section>
+      <h4>Facebook Style</h4>
+      <button type="button" name="button" class="facebook-style-btn facebook-style-dark">Button Dark</button>
+      <button type="button" name="button" class="facebook-style-btn facebook-style-light">Button Light</button>
+    </section>
+    <section>
+      <h4>3D Buttons</h4>
+      <button type="button" name="button" class="btn-3d-1">3D Button 1</button>
+      <button type="button" name="button" class="btn-3d-2">Circle!</button>
+    </section>
+    <section>
+      <h4>Gradient Bordered Buttons</h4>
+      <button type="button" name="button" class="gradient-button-1">Gradient button 1</button>
+      <button type="button" name="button" class="gradient-button-2">Gradient button 2</button>
+    </section>
+    <section>
+      <h4>Animated Buttons</h4>
+      <button type="button" name="button" class="animated-button-2">Animated button 2</button>
+    </section>
+    <section>
+      <h4>Toggle Switch UI Buttons</h4>
+      <label for="toggle1" class="toggle-1">
+        <input type="checkbox" id="toggle1" class="toggle-1__input" />
+        <span class="toggle-1__button"></span>
+      </label>
+      <label for="toggle2" class="toggle-2">
+        <input type="checkbox" id="toggle2" class="toggle-2__input" />
+        <span class="toggle-2__button">Click me to activate</span>
+      </label>
+    </section>
+  </div>
+  </div>
+
+  <div class="final-result">
+    <h1>Typography</h1>
+    <div class="content">
+      <section>
+        <h4 class="final__shadow-typo">Cool Shadow</h4>
+      </section>
+      <section>
+        <h4 class="final__threedee-typo">3D Type</h4>
+      </section>
+    </div>
+  </div>
+
+  <div class="final-result">
+    <h1>Form</h1>
+    <div class="content">
+      <section>
+        <div class="final__register-wrapper">
+          <div class="final__register-block">
+            <h3 class="final__register-title">Create an account</h3>
+            <p>Quickly &amp; easily create an account using the form below.</p>
+            <form action="">
+              <input type="email" placeholder="Enter your email" />
+              <input type="password" placeholder="Enter your password" />
+              <input type="submit" value="Create my account" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="final-result">
+    <h1>Images</h1>
+    <div class="content">
+      <section>
+        <h4>Example #1</h4>
+        <img src="https://unsplash.it/500/300?image=1074" alt="" class="final__grayscale" />
+      </section>
+      <section>
+        <h4>Example #2</h4>
+        <img src="https://unsplash.it/500/300?image=1055" alt="" class="final__blur" />
+      </section>
+      <section>
+        <h4>Example #3</h4>
+        <img src="https://unsplash.it/500/300?image=1000" alt="" class="final__invert" />
+      </section>
+      <section>
+        <h4>Example #4</h4>
+        <img src="https://unsplash.it/500/300?image=1023" alt="" class="final__sepia" />
+      </section>
+    </div>
+  </div>
+
+  <div class="final-result">
+    <h1>Modal</h1>
+    <div class="content">
+      <section>
+        <h4>CSS Only Modal Window</h4>
+        <input type="checkbox" id="final__click" style="display:none" />
+        <label class="final__button" for="final__click">
+          <a class="button-theme">Click to launch modal</a>
+        </label>
+        <div class="final__modal">
+          <div class="final__modal__content">
+            <h3>Heading Title</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+              of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <label for="final__click" class="final__button">
+              <a class="button-theme">Close</a>
+            </label>
+          </div>
+        </div>
+        <div class="final__overlay"></div>
+      </section>
+    </div>
+  </div>
+
+  <div class="final-result">
+    <h1>Tooltips</h1>
+    <div class="content">
+      <section>
+        <h4>Tooltip on Top</h4>
+        <div class="final__tooltip top" title="Tooltip on top!">
+          Hover over me
+        </div>
+      </section>
+      <section>
+        <h4>Tooltip on Right</h4>
+        <div class="final__tooltip right" title="Tooltip on right!">
+          Hover over me
+        </div>
+      </section>
+      <section>
+        <h4>Tooltip on Bottom</h4>
+        <div class="final__tooltip bottom" title="Tooltip on bottom!">
+          Hover over me
+        </div>
+      </section>
+      <section>
+        <h4>Tooltip on Left</h4>
+        <div class="final__tooltip left" title="Tooltip on left!">
+          Hover over me
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="final-result">
+    <h1>Accordion</h1>
+    <div class="content">
+      <section>
+        <div class="final__accordion">
+          <div class="accordion__item">
+            <a href="#final__tab1" class="accordion__trigger accordion__title">Accordion 1</a>
+            <div id="final__tab1" class="accordion__content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laborum, rerum quasi rem placeat quo
+                ratione qui, optio id eaque laudantium reprehenderit aliquam vel cum necessitatibus ut doloremque ullam
+                natus.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <a href="#final__tab2" class="accordion__trigger accordion__title">Accordion 2</a>
+            <div id="final__tab2" class="accordion__content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laborum, rerum quasi rem placeat quo
+                ratione qui, optio id eaque laudantium reprehenderit aliquam vel cum necessitatibus ut doloremque ullam
+                natus.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <a href="#final__tab3" class="accordion__trigger accordion__title">Accordion 3</a>
+            <div id="final__tab3" class="accordion__content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laborum, rerum quasi rem placeat quo
+                ratione qui, optio id eaque laudantium reprehenderit aliquam vel cum necessitatibus ut doloremque ullam
+                natus.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <div class="final-result">
+    <h1>Sliding panels</small></h1>
+    <div class="content">
+      <section>
+        <h4>Slide from Top</h4>
+        <div class="final__slide slide-top">
+          <div class="final__slide-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+          <img src="https://placeimg.com/300/200/animals">
+        </div>
+      </section>
+      <section>
+        <h4>Slide from Right</h4>
+        <div class="final__slide slide-right">
+          <div class="final__slide-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+          <img src="https://placeimg.com/300/200/tech">
+        </div>
+      </section>
+      <section>
+        <h4>Slide from Bottom</h4>
+        <div class="final__slide slide-bottom">
+          <div class="final__slide-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+          <img src="https://placeimg.com/300/200/architecture">
+        </div>
+      </section>
+      <section>
+        <h4>Slide from Left</h4>
+        <div class="final__slide slide-left">
+          <div class="final__slide-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+          <img src="https://placeimg.com/300/200/people">
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="final-result">
+    <div class="content">
+      <section>
+        <h1>3D Layer Effect</h1>
+        <div class="final__layers">
+          <img src="img/back.svg" alt="back layer" class="back">
+          <img src="img/mid.svg" alt="mid layer" class="mid">
+          <img src="img/top.svg" alt="top layer" class="top">
+          <img src="img/tippytop.svg" alt="tippy top layer" class="tippy">
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
